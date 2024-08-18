@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="assets/img/hero.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>Honor</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="bx bx-stopwatch"></i>Honor</a>
+
+      <ul class="navlist">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Smartphone</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+
+      <div class="h-main">
+        <a href="#" class="h-btn" onclick="alert('You Click me')">Buy Now</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-moon" id="darkmode"></div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Smartwatch</h1>
+        <h4>Element Series</h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+          officiis quos recusandae?
+        </p>
+        <div class="hero-in">
+          <div class="box" onclick="slider('assets/img/main1.png')">
+            <h3>White</h3>
+            <h5 class="box-h5">Water Resistence</h5>
+            <img src="assets/img/main1.png" alt="image" />
+          </div>
+
+          <div class="box" onclick="slider('assets/img/main2.png')">
+            <h3>Black</h3>
+            <h5 class="box-h5">Water Resistence</h5>
+            <img src="assets/img/main2.png" alt="image" />
+          </div>
+
+          <div class="box" onclick="slider('assets/img/hero.png')">
+            <h3>Pink</h3>
+            <h5 class="box-h5">Water Resistence</h5>
+            <img src="assets/img/hero.png" alt="image" />
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img class="one" src="assets/img/hero.png" alt="image" />
+      </div>
+    </section>
+
+    <div class="down-arrow">
+      <i class="bx bx-down-arrow-alt"></i>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
